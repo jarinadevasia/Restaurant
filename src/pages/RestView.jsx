@@ -30,7 +30,7 @@ function RestView() {
 
     return (
         <>
-            <Row className='mt-5 mb-5'>
+            <Row className='mt-5 mb-1'>
                 <Col md={1}>
                 </Col>
                 <Col md={3}>
@@ -80,7 +80,7 @@ function RestView() {
                                     selectedRestaurant.reviews.map((item) => (
                                         <div>
                                             <hr />
-                                            <div className="mt-3">
+                                            <div className="mt-1">
                                                 <h6>Name: {item.name}</h6>
                                                 <h6>Date: {item.date}</h6>
                                                 <h6>Rating: {item.rating}</h6>
